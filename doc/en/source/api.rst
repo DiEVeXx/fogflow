@@ -671,7 +671,7 @@ subscribe context by entity type
             curl -X POST 'http://localhost:8070/ngsi10/subscribeContext' \
               -H 'Content-Type: application/json' \
               -d '{
-                    "entities":[{"type":"Temperature","isPattern":true}]
+                    "entities":[{"type":"Temperature","isPattern":true}],
                     "reference": "http://localhost:8066"                    
                   }'          
 
